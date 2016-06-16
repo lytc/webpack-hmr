@@ -3,9 +3,9 @@ import http from 'http';
 import socketIo from 'socket.io';
 import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
+import { hmrServer } from 'webpack-hmr';
 
 import webpackConfig from './webpack.config';
-import { hmrServer } from '../../dist';
 
 const port = process.env.PORT || 3000;
 const app = express();
