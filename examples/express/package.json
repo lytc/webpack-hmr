@@ -1,0 +1,30 @@
+{
+  "name": "webpack-hmr-express-example",
+  "version": "1.0.0",
+  "description": "Webpack HMR express example",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development DEBUG=HMR $(npm bin)/babel-node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {
+    "webpack-hmr": "^1.0.0",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1"
+  }
+}
