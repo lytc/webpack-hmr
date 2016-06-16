@@ -1,6 +1,6 @@
 {
   "name": "webpack-hmr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack Hot Module Replacement",
   "author": "Ly Tran prtran@gmail.com",
   "main": "dist/index.js",
